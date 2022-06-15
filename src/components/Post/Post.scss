@@ -1,0 +1,16 @@
+@import '../../main.scss';
+
+.Post {
+  margin: 10px 0;
+  background-color: white;
+  border: 2px solid $primary-color;
+  font-family: initial;
+
+  div {
+    padding: 5px;
+
+    &:first-of-type {
+      border-bottom: 2px solid $primary-color;
+    }
+  }
+}

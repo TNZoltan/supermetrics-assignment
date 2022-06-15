@@ -1,0 +1,27 @@
+@import '../../main.scss';
+
+.LoginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &__loginBox {
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color;
+    color: white;
+    border: 1px transparent solid;
+    border-radius: 7px;
+    width: 300px;
+    padding: 10px 30px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  input {
+    margin-bottom: 15px;
+  }
+}
